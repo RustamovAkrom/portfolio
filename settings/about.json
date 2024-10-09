@@ -1,0 +1,41 @@
+{
+    "about": {
+      "title": "Python Developer",
+      "description": "Hi 👋 I had been interested in programming for a long time and for that I had the opportunity...",
+      "details": {
+        "birthday": "1st January 2000",
+        "website": "yourwebsite.com",
+        "phone": "+123456789",
+        "city": "Your City",
+        "age": "18",
+        "degree": "Bachelor's Degree",
+        "email": "youremail@example.com"
+      }
+    },
+    "skills": {
+      "technical": [
+        {"name": "Python", "value": 100},
+        {"name": "PostgreSQL", "value": 100},
+        {"name": "Git", "value": 100},
+        {"name": "Docker", "value": 60},
+        {"name": "Linux", "value": 30},
+        {"name": "HTML", "value": 90},
+        {"name": "CSS", "value": 30},
+        {"name": "JavaScript", "value": 29}
+      ],
+      "frameworks": [
+        {"name": "Django FullStack", "value": 100},
+        {"name": "Django DRF", "value": 95},
+        {"name": "Flask", "value": 60},
+        {"name": "FastApi", "value": 30},
+        {"name": "Bootstrap", "value": 80}
+      ]
+    },
+    "counts": {
+      "clients": 0,
+      "projects": 30,
+      "hoursOfSupport": 0,
+      "awards": 1
+    }
+  }
+  

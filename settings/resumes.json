@@ -1,0 +1,38 @@
+{
+    "name": "Akrom Rustamov",
+    "title": "Python Developer",
+    "summary": "Experienced Python developer with a focus on backend technologies...",
+    "education": [
+      {
+        "institution": "Najot Talim",
+        "degree": "Backend Python Django (Standard)",
+        "dates": "13.06.2023 - 29.03.2024",
+        "description": "Qui deserunt veniam. Et sed aliquam labore tempore..."
+      }
+    ],
+    "experience": [
+      {
+        "position": "Senior Graphic Design Specialist",
+        "dates": "2020 - Present",
+        "company": "Experion, Tashkent",
+        "responsibilities": [
+          "Responsible for overseeing the design team...",
+          "Developed various marketing materials...",
+          "Collaborated with clients to create designs...",
+          "Implemented innovative design strategies..."
+        ]
+      },
+      {
+        "position": "Python Developer",
+        "dates": "2019 - 2020",
+        "company": "Freelancer",
+        "responsibilities": [
+          "Developed web applications using Django...",
+          "Integrated APIs and optimized performance...",
+          "Created automated scripts for data processing...",
+          "Collaborated with designers and developers..."
+        ]
+      }
+    ]
+  }
+  

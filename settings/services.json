@@ -1,0 +1,39 @@
+[
+    {
+      "icon": "bx bxl-dribbble",
+      "title": "Lorem Ipsum",
+      "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+      "link": "#"
+    },
+    {
+      "icon": "bx bx-bot",
+      "title": "Application and telegram bot for",
+      "description": "If you write this bat in balsa without an application for suggestions and complaints, it will be",
+      "link": "https://t.me/akromrustamov_bot"
+    },
+    {
+      "icon": "bx bx-tachometer",
+      "title": "Magni Dolores",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia",
+      "link": "#"
+    },
+    {
+      "icon": "bx bx-world",
+      "title": "Location",
+      "description": "The address of my uncle's place of residence is shown here in this map",
+      "link": "https://yandex.uz/maps/?ll=69.167686%2C40.962176&mode=whatshere&whatshere%5Bpoint%5D=69.166893%2C40.960308&whatshere%5Bzoom%5D=16&z=15.83"
+    },
+    {
+      "icon": "bx bx-slideshow",
+      "title": "Dele cardo",
+      "description": "Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur",
+      "link": "#"
+    },
+    {
+      "icon": "bx bx-arch",
+      "title": "Divera don",
+      "description": "Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur",
+      "link": "#"
+    }
+  ]
+  

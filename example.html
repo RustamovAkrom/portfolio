@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio - Rustamov Akrom</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">Rustamov Akrom</a></h1>
+      <h2>Python Developer</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+        <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+        <!-- <a href="#" class="telegram"><i class="bi bi-award"></i></a> -->
+        <a href="https://www.facebook.com/profile.php?id=61560959857770"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/explore"><i class="bi bi-instagram"></i></a>
+        <a href="https://t.me/RustamovAkrom2007"><i class="bi bi-telegram"></i></a>
+        <a href="https://www.linkedin.com/in/akrom-rustamov-255b372b7/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/RustamovAkrom"><i class="bi bi-github"></i></a>
+
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+
+  <!-- ======= About Me ======= -->
+  <div class="about-me container">
+    <div class="section-title">
+      <h2>About</h2>
+      <p>Learn more about me</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-right">
+        <img src="assets/img/me.j" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h3 id="about-title"></h3>
+        <p class="fst-italic" id="about-description"></p>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span id="birthday"></span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span id="website"></span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span id="phone"></span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span id="city"></span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="age"></span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span id="degree"></span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span id="email"></span></li>
+            </ul>
+          </div>
+        </div>
+        <p id="about-long-description"></p>
+      </div>
+    </div>
+  </div><!-- End About Me -->
+
+  <!-- ======= Counts ======= -->
+  <div class="counts container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="count-box">
+          <i class="bi bi-emoji-smile"></i>
+          <span id="clients-count" class="purecounter"></span>
+          <p>Clients</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+        <div class="count-box">
+          <i class="bi bi-journal-richtext"></i>
+          <span id="projects-count" class="purecounter"></span>
+          <p>Projects</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+          <i class="bi bi-headset"></i>
+          <span id="hours-support-count" class="purecounter"></span>
+          <p>Hours Of Support</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+          <i class="bi bi-award"></i>
+          <span id="awards-count" class="purecounter"></span>
+          <p>Awards</p>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Counts -->
+
+  <!-- ======= Skills  ======= -->
+  <div class="skills container">
+    <div class="section-title">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="row skills-content">
+      <div class="col-lg-6" id="technical-skills"></div>
+      <div class="col-lg-6" id="framework-skills"></div>
+    </div>
+  </div><!-- End Skills -->
+
+</section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+  
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+  
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4 id="resume-name">Rustamov Akrom</h4>
+            <p><em id="resume-summary">Experienced Python developer...</em></p>
+          </div>
+  
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4 id="education-institution">Najot Talim &amp; Xadra branch</h4>
+            <h5 id="education-dates">13.06.2023 - 29.03.2024</h5>
+            <p><em>Backend Python Django (Standart) </em></p>
+            <p id="education-description">Qui deserunt veniam...</p>
+          </div>
+        </div>
+  
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div id="professional-experience">
+            <!-- Опыт работы будет загружен сюда -->
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+    
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row" id="services-row"></div>
+    </div>
+  </section><!-- End Services Section -->
+  
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>My best portfolios</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-django">Django</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container" id="portfolio-items">
+            <!-- Portfolio items will be injected here -->
+
+        </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+  
+      <div class="row mt-2">
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box" id="contact-address">
+            <!-- Address JSON orqali yuklanadi -->
+          </div>
+        </div>
+  
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links" id="social-links">
+              <!-- Social Profiles JSON orqali yuklanadi -->
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box" id="contact-email">
+            <!-- Email JSON orqali yuklanadi -->
+          </div>
+        </div>
+        
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box" id="contact-phone">
+            <!-- Phone JSON orqali yuklanadi -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="credits">
+    created at <a href="#">08.05.2024</a>
+  </div>
+
+
+  <!-- Scripts --------------------------------------------------------------- -->
+  
+  <!-- About scriping -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('settings/about.json')
+        .then(response => response.json())
+        .then(data => {
+          // Заполнение данных о вас
+          document.getElementById("about-title").innerText = data.about.title;
+          document.getElementById("about-description").innerText = data.about.description;
+          document.getElementById("birthday").innerText = data.about.details.birthday;
+          document.getElementById("website").innerText = data.about.details.website;
+          document.getElementById("phone").innerText = data.about.details.phone;
+          document.getElementById("city").innerText = data.about.details.city;
+          document.getElementById("age").innerText = data.about.details.age;
+          document.getElementById("degree").innerText = data.about.details.degree;
+          document.getElementById("email").innerText = data.about.details.email;
+          document.getElementById("about-long-description").innerText = data.about.description;
+
+          // Заполнение счетчиков
+          document.getElementById("clients-count").innerText = data.counts.clients;
+          document.getElementById("projects-count").innerText = data.counts.projects;
+          document.getElementById("hours-support-count").innerText = data.counts.hoursOfSupport;
+          document.getElementById("awards-count").innerText = data.counts.awards;
+
+          // Заполнение навыков
+          const technicalSkills = data.skills.technical.map(skill => 
+            `<div class="progress">
+              <span class="skill">${skill.name} <i class="val">${skill.value}%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="${skill.value}" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>`
+          ).join('');
+
+          const frameworkSkills = data.skills.frameworks.map(skill => 
+            `<div class="progress">
+              <span class="skill">${skill.name} <i class="val">${skill.value}%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="${skill.value}" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>`
+          ).join('');
+
+          document.getElementById("technical-skills").innerHTML = technicalSkills;
+          document.getElementById("framework-skills").innerHTML = frameworkSkills;
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+    });
+  </script>
+
+  <!-- Resume scriping -->
+  <script>
+    // Функция для загрузки JSON файла и рендеринга резюме
+    fetch('settings/resumes.json')
+      .then(response => response.json())
+      .then(data => {
+        // Заполняем данные для Sumary
+        document.getElementById('resume-name').innerText = data.name;
+        document.getElementById('resume-summary').innerText = data.summary;
+  
+        // Образование
+        const education = data.education[0];
+        document.getElementById('education-institution').innerText = education.institution;
+        document.getElementById('education-dates').innerText = education.dates;
+        document.getElementById('education-description').innerText = education.description;
+  
+        // Опыт работы
+        const experience = data.experience;
+        let experienceHTML = '';
+        experience.forEach(item => {
+          experienceHTML += `
+            <div class="resume-item">
+              <h4>${item.position}</h4>
+              <h5>${item.dates}</h5>
+              <p><em>${item.company}</em></p>
+              <ul>
+                ${item.responsibilities.map(responsibility => `<li>${responsibility}</li>`).join('')}
+              </ul>
+            </div>
+          `;
+        });
+        document.getElementById('professional-experience').innerHTML = experienceHTML;
+      })
+      .catch(error => console.error('Error loading resume:', error));
+  </script>
+
+  <!-- Services scriping -->
+  <script>
+    // JSON faylini yuklash
+    fetch('settings/services.json')
+      .then(response => response.json())
+      .then(data => {
+        const servicesRow = document.getElementById('services-row');
+        data.forEach(service => {
+          const colDiv = document.createElement('div');
+          colDiv.className = 'col-lg-4 col-md-6 d-flex align-items-stretch mt-4';
+  
+          colDiv.innerHTML = `
+            <div class="icon-box">
+              <div class="icon"><i class="${service.icon}"></i></div>
+              <h4><a href="${service.link}">${service.title}</a></h4>
+              <p>${service.description}</p>
+            </div>
+          `;
+  
+          servicesRow.appendChild(colDiv);
+        });
+      })
+      .catch(error => console.error('Error loading JSON:', error));
+  </script>
+
+  <!-- Portfolio scriping -->
+  <script>
+    // JSON faylini yuklash va portfel elementlarini yaratish
+    fetch('settings/portfolio.json')
+        .then(response => response.json())
+        .then(data => {
+            const portfolioContainer = document.getElementById('portfolio-items');
+            data.forEach(item => {
+                const portfolioItem = document.createElement('div');
+                portfolioItem.className = `col-lg-4 col-md-6 portfolio-item ${item.filter}`;
+                portfolioItem.innerHTML = `
+                  <div>
+                    <div class="portfolio-wrap">
+                        <img src="${item.image}" class="img-fluid" alt="${item.title}">
+                        <div class="portfolio-info">
+                            <h4>${item.title}</h4>
+                            <p>${item.description}</p>
+                            <div class="portfolio-links">
+                                <a href="${item.image}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="${item.title}"><i class="bx bx-plus"></i></a>
+                                <a href="${item.github}" target="_blank"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                `;
+                portfolioContainer.appendChild(portfolioItem);
+            });
+        })
+        .catch(error => console.error('Error loading portfolio:', error));
+  </script>
+
+  <!-- Contact scriping -->
+  <script>
+    // JSON faylingizni yuklaymiz
+    fetch('settings/contact.json')
+      .then(response => response.json())
+      .then(data => {
+        const contactInfo = data.contactInfo;
+  
+        // Address
+        document.getElementById('contact-address').innerHTML = `
+          <i class="${contactInfo.address.icon}"></i>
+          <h3>${contactInfo.address.title}</h3>
+          <p>${contactInfo.address.details}</p>
+        `;
+  
+        // Social Profiles
+        const socialLinks = document.getElementById('social-links');
+        contactInfo.socialProfiles.forEach(profile => {
+          socialLinks.innerHTML += `
+            <a href="${profile.link}" class="${profile.platform.toLowerCase()}">
+              <i class="${profile.icon}"></i>
+            </a>
+          `;
+        });
+  
+        // Email
+        document.getElementById('contact-email').innerHTML = `
+          <i class="${contactInfo.email.icon}"></i>
+          <h3>${contactInfo.email.title}</h3>
+          <p>${contactInfo.email.details}</p>
+        `;
+  
+        // Phone
+        document.getElementById('contact-phone').innerHTML = `
+          <i class="${contactInfo.phone.icon}"></i>
+          <h3>${contactInfo.phone.title}</h3>
+          <p>${contactInfo.phone.details}</p>
+        `;
+      });
+  </script>
+  
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

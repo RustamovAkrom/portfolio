@@ -1,0 +1,23 @@
+[
+  {
+      "title": "Aznews",
+      "description": "Python",
+      "image": "assets/img/portfolio/Aznews.png",
+      "github": "https://github.com/RustamovAkrom/Aznews",
+      "filter": "filter-django"
+  },
+  {
+      "title": "Blog Post",
+      "description": "Python",
+      "image": "assets/img/portfolio/blog_post.png",
+      "github": "https://github.com/RustamovAkrom/Blog_app",
+      "filter": "filter-django"
+  },
+  {
+      "title": "Catalog Z",
+      "description": "Python",
+      "image": "assets/img/portfolio/Catalog_Z.png",
+      "github": "https://github.com/RustamovAkrom/Catalog_Z",
+      "filter": "filter-django"
+  }
+]

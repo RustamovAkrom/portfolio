@@ -1,0 +1,46 @@
+{
+  "contactInfo": {
+    "address": {
+      "icon": "bx bx-map",
+      "title": "My Address",
+      "details": "Azia, Uzbekistan, Tashkent"
+    },
+    "socialProfiles": [
+      {
+        "platform": "Facebook",
+        "icon": "bi bi-facebook",
+        "link": "https://www.facebook.com/profile.php?id=61560959857770"
+      },
+      {
+        "platform": "Instagram",
+        "icon": "bi bi-instagram",
+        "link": "https://www.instagram.com/explore"
+      },
+      {
+        "platform": "GitHub",
+        "icon": "bi bi-github",
+        "link": "https://github.com/RustamovAkrom"
+      },
+      {
+        "platform": "Telegram",
+        "icon": "bi bi-telegram",
+        "link": "https://t.me/RustamovAkrom2007"
+      },
+      {
+        "platform": "LinkedIn",
+        "icon": "bi bi-linkedin",
+        "link": "https://www.linkedin.com/in/akrom-rustamov-255b372b7/"
+      }
+    ],
+    "email": {
+      "icon": "bx bx-envelope",
+      "title": "Email Me",
+      "details": "akromjonrustamov56@gmail.com"
+    },
+    "phone": {
+      "icon": "bx bx-phone-call",
+      "title": "Call Me",
+      "details": "+998 95 878 62 77"
+    }
+  }
+}
