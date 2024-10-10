@@ -4,12 +4,12 @@
       "description": "Python",
       "image": "assets/img/portfolio/Aznews.png",
       "github": "https://github.com/RustamovAkrom/Aznews",
-      "filter": "filter-django"
+      "filter": "filter-flask"
   },
   {
-      "title": "Blog Post",
+      "title": "Blog App",
       "description": "Python",
-      "image": "assets/img/portfolio/blog_post.png",
+      "image": "assets/img/portfolio/blog_app.png",
       "github": "https://github.com/RustamovAkrom/Blog_app",
       "filter": "filter-django"
   },
@@ -18,6 +18,6 @@
       "description": "Python",
       "image": "assets/img/portfolio/Catalog_Z.png",
       "github": "https://github.com/RustamovAkrom/Catalog_Z",
-      "filter": "filter-django"
+      "filter": "filter-web"
   }
 ]
